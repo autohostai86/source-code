@@ -1,0 +1,39 @@
+.createuser-btn{
+    display: flex;
+    justify-content: end;
+}
+.edit-icon{
+    color: rgb(230, 151, 4);
+}
+
+.delet-icon{
+    color: rgb(228, 1, 1);
+}
+
+.table-style{
+    margin-bottom: 40px;
+    border-bottom: 2px solid #5e72e4;
+}
+
+.btn-darkblue {
+  background-color: #184394; /* Dark blue color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for the button */
+  font-size: 16px; /* Font size */
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+  transition: transform 0.1s ease-in-out; /* Transition for the hover effect */
+}
+
+.btn-darkblue:hover {
+  transform: translateY(-2px); /* Slight lift on hover */
+  background-color: #1f4ea5;
+  color: white;
+  border: none;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-control{
+  color: #000 !important;
+}

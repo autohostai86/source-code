@@ -1,0 +1,68 @@
+.h1-alt{
+    color: #000;
+}
+
+.custom-padding{
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+}
+
+.invalid-feedback{
+    display: block !important;
+}
+
+.postEndIcon{
+    background-color: #051E5C !important;
+    border-radius: 8px !important;
+}
+
+.custom-button{
+    background-color: #051E5C;
+    color: #fff;
+    box-shadow: 0 .5rem 1rem #051e5c!important;
+    border: none;
+}
+
+.custom-button:hover{
+    background-color: #072470;
+    color: #fff;
+}
+
+.line-through::before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #C2C2C2;
+}
+
+.line-through{
+    position: relative;
+    max-width: 500px;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.line-through::after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: #C2C2C2;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.custom-outline-button{
+    background-color: #fff;
+    border-color: #051E5C;
+    color: #051E5C;
+}
+
+.custom-margin{
+    margin-top: 8rem;
+}

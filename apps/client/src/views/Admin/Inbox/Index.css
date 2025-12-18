@@ -1,0 +1,289 @@
+.chat-online {
+    color: #34ce57
+}
+
+.chat-offline {
+    color: #e4606d
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 10vh);
+}
+
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.input-section {
+    position: sticky;
+    bottom: 0;
+    background: white;
+    padding: 10px;
+}
+
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0
+}
+
+.chat-message-left {
+    margin-right: auto
+}
+
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto
+}
+
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.px-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+.flex-grow-0 {
+    flex-grow: 0 !important;
+}
+
+.border-top {
+    border-top: 1px solid #dee2e6 !important;
+}
+
+.custom-btn {
+    background-color: transparent;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    color: gray;
+}
+
+.chat-list {
+    max-height: calc(100vh - 10vh);
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.load-btn {
+    position: relative !important;
+    left: 35%;
+}
+
+.form-control {
+    color: #000 !important;
+}
+
+.textarea {
+    overflow-y: hidden;
+    resize: none;
+}
+
+.textarea::-webkit-scrollbar {
+    width: 0;
+}
+
+.listing {
+    font-size: 12px;
+}
+
+.custom-bg {
+    background-color: #fff;
+}
+
+.msg-card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+.custom-msg-bg-blue{
+    background-color: #0078fe;
+    color: #fff;
+}
+
+.custom-msg-bg-gray{
+    background-color: #eceff2;
+    color: #000;
+}
+
+.txt-black {
+    color: #000;
+}
+
+.custom-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.custom-txt-holder {
+    background-color: #F3F0F0;
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-right: 3%;
+    color: #000;
+    border-radius: 10px;
+}
+
+.custom-btn {
+    border: 1px solid #051E5C;
+}
+
+.custom-txt-holder p {
+    line-height: 1 !important;
+    font-size: 11px;
+}
+
+.active {
+    /* border: 1px solid #2760EE; */
+    background-color: #eceff2 !important;
+}
+
+.main-content .container-fluid,
+.container {
+    padding-right: 1% !important;
+    padding-left: 1% !important;
+}
+
+/* styles related to tab filter */
+.tab-container {
+    display: flex;
+    align-items: center;
+    background-color: #f5f7fa;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 2%;
+}
+
+.tab {
+    padding: 10px 40px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.tab.selected {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delete-button {
+    margin-left: auto;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ff0000;
+}
+/* tab filter styles ends here */
+
+/* Reservation section styles */
+.time-holder {
+    border: 1px solid #eff0f3;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.custom-border{
+    border-left: 1px solid #eff0f3;
+}
+/* Reservation section styles ends here */
+
+.back-btn{
+    position: relative;
+    left: -40%;
+}
+
+.inquiry {
+    background-color: #FFF2CC;
+    color: #D99000;
+    border: 1px solid #FFD966;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+.inquiry p{
+    font-size: 12px !important;
+}
+
+.inquiryNotPossible {
+    background-color: #F3E8FF;
+    color: #A64DFF;
+    border: 1px solid #E0C7FF;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+.cancelled {
+    background-color: #FFE6E6;
+    color: #FF4D4D;
+    border: 1px solid #FFCCCC;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+#status-holder p{
+    font-size: 12px;
+}
+
+.card-header{
+    background-color: #e7e5e5;
+    color: #000;
+    padding-bottom: 0px !important;
+    
+}
+
+.cus-mr-2{
+    margin-right: 20%;
+}
+
+.cus-mr-15{
+    margin-right: 15%;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100px;
+}
+
+@media screen and (max-width: 470px) {
+    .list-group-item{
+        padding: 0px !important;
+    }
+    .listing {
+        font-size: 10px !important;
+    }
+
+    #status-holder p{
+        font-size: 10px !important;
+    }
+}

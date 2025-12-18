@@ -1,0 +1,19 @@
+{
+    "Dashboard": "/dashboard",
+    "Chatbot": "/chatbot",
+    "CreateBot": "/chatbot/create",
+    "EditBot": "/chatbot/edit",
+    "Inbox": "/inbox",
+    "ManageCustomer":"/manager-customer",
+    "BillingModule":"/billing",
+    "Settings":"/settings",
+    "UrgentTags":"/UrgentTags",
+    "ViewListing":"/view-listings",
+    "Listing":"/listing",
+    "ConversationalLog":"/conversational-log",
+    "Plan":"/plan",
+    "Transactions": "/transactions",
+    "ManageListing": "/listing/create-or-update",
+    "Profile": "/profile",
+    "SubscriptionAlert": "/subscription-alert"
+}

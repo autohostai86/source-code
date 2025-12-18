@@ -1,0 +1,13 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# docker exec -w /usr/src/app -i  node-mocr /bin/bash -c 'NODE_ENV=production nx build api'
+# docker exec -w /usr/src/app -i  node-mocr /bin/bash -c 'NODE_ENV=production nx build client'
+docker exec -w /usr/src/app -i  node-sap /bin/bash -c 'NODE_ENV=production nx affected:build --all'
+# docker exec -w /usr/src/app -i  node-mocr /bin/bash -c 'yarn install'
+
+yarn lint-staged
+
+
+
+

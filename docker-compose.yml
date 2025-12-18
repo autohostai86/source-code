@@ -1,0 +1,75 @@
+# @format
+version: '3.8'
+
+services:
+    # node-python service
+    node-chat-service:
+        build:
+            context: .
+            dockerfile: Dockerfile
+
+        container_name: node-chat
+        hostname: node-chat
+        tty: true
+        restart: always
+        ports:
+            - '5000:5000'
+            - '5001:5001'
+            - '5002:5001'
+            - '5003:5001'
+
+        volumes:
+            #FIXME:DEPLOY CHECK
+            - /ubuntu/uploads-chat:/usr/src/app/uploads
+
+        env_file:
+            - .env
+
+    mongo-chat-service:
+        image: mongo:4.4-focal
+        # image: mongo:5.0-focal
+        restart: always
+        tty: true
+        container_name: mongo-chat
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: root
+            MONGO_INITDB_ROOT_PASSWORD: 1004
+            MONGO_INITDB_DATABASE: chat
+        volumes:
+            - mongo-chat-storage:/data/db
+        ports:
+            - 27020:27017
+
+    nginx-chat-service:
+        # image: nginx:1.18.0
+        image: nginx:1.21
+        restart: always
+        tty: true
+        container_name: nginx-chat
+        volumes:
+            - ./templates:/etc/nginx/templates
+            - ./nginx.conf:/etc/nginx/conf.d
+            - ./web-build:/usr/share/nginx/html
+            - /home/ubuntu/uploads-chat:/usr/share/nginx/api/uploads
+            - /home/ubuntu/certbot/conf:/etc/letsencrypt
+            - /home/ubuntu/certbot/www:/var/www/certbot
+        command: '/bin/sh -c ''while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g "daemon off;"'''
+
+        ports:
+            - '80:80'
+            - '443:443'
+
+        environment:
+            - NGINX_HOST=http://217.146.95.81
+            - NGINX_PORT=80
+
+    certbot:
+        image: certbot/certbot
+        container_name: certbot-mocr
+        entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
+        volumes:
+            - /home/ubuntu/certbot/conf:/etc/letsencrypt
+            - /home/ubuntu/certbot/www:/var/www/certbot
+
+volumes:
+    mongo-chat-storage:

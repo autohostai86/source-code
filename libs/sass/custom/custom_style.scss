@@ -1,0 +1,17 @@
+/** @format */
+
+@import "./variables.scss";
+
+// $logoPath: "/assets/img/logo20.jpg";
+
+// .logo-single {
+//     background: url($logoPath) no-repeat;
+// }
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: #000 !important;
+}
+
+.fontArial {
+    font-family: Arial, Helvetica, sans-serif;
+  }

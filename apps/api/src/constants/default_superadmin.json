@@ -1,0 +1,17 @@
+{
+    "roles": [{
+        "SuperAdminDashboard": ["no_sub_menu"]
+    }, {
+        "SuperAdminManageOrganization": ["no_sub_menu"]
+    }, {
+        "SuperAdminManageAdmin": ["no_sub_menu"]
+    }, {
+        "SuperAdminConfig": ["no_sub_menu"]
+    }, {
+        "SuperAdminAudit": ["no_sub_menu"]
+    }],
+    "userName": "superadmin",
+    "venderOrgName": "test",
+    "email": "superadmin@vinnovate.com",
+    "password": "$2a$10$A4QutiON1lYFin0GCZJW.OwdFVICnoCNyK7OAnuw3.VfZmhyxu.b."
+  }

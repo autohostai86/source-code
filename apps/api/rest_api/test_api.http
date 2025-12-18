@@ -1,0 +1,22 @@
+# DEMO TEST API
+GET http://localhost:5000/api/test_api_1 HTTP/1.1
+content-type: application/json
+ 
+# {
+#     "organizationName":"vinnovate",
+#     "organizationEmail":"superadmin@vinnovate.com",
+#     "organizationLicenceFlag":true,
+#     "organizationLicenceDate":"2021-08-4"
+# }
+
+### DEMO OCR PDF API  
+GET http://localhost:5000/api/ocrPdf HTTP/1.1
+
+
+### DEMO PNG COMPRESS  
+GET http://localhost:5000/api/pngCompress HTTP/1.1
+
+
+
+###  WORKER THREAD  
+GET http://localhost:5000/api/start HTTP/1.1

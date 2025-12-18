@@ -1,0 +1,320 @@
+{
+    "propertyTypes": [
+        {
+            "label": "House",
+            "value": "house",
+            "icon": "House.svg"
+        },
+        {
+            "label": "Apartment",
+            "value": "apartment",
+            "icon": "Apartment.svg"
+        },
+        {
+            "label": "Barn",
+            "value": "barn",
+            "icon": "Barn.svg"
+        },
+        {
+            "label": "Bed & breakfast",
+            "value": "bedAndBreakfast",
+            "icon": "BedCoffee.svg"
+        },
+        {
+            "label": "Boat",
+            "value": "boat",
+            "icon": "Boat.svg"
+        },
+        {
+            "label": "Cabin",
+            "value": "cabin",
+            "icon": "Cabin.svg"
+        },
+        {
+            "label": "Camper/RV",
+            "value": "camperOrRv",
+            "icon": "Camper.svg"
+        },
+        {
+            "label": "Casa particular",
+            "value": "casaParticular",
+            "icon": "Casa.svg"
+        },
+        {
+            "label": "Castle",
+            "value": "castle",
+            "icon": "Castle.svg"
+        },
+        {
+            "label": "Cave",
+            "value": "cave",
+            "icon": "Cave.svg"
+        },
+        {
+            "label": "Container",
+            "value": "container",
+            "icon": "Container.svg"
+        },
+        {
+            "label": "Cycladic Home",
+            "value": "cycladicHome",
+            "icon": "Cycladic.svg"
+        },
+        {
+            "label": "Dammuso",
+            "value": "dammuso",
+            "icon": "Dammuso.svg"
+        },
+        {
+            "label": "Dome",
+            "value": "dome",
+            "icon": "Dome.svg"
+        },
+        {
+            "label": "Earth Home",
+            "value": "earthHome",
+            "icon": "EarthHome.svg"
+        },
+        {
+            "label": "Farm",
+            "value": "farm",
+            "icon": "Farm.svg"
+        },
+        {
+            "label": "Guest House",
+            "value": "guestHouse",
+            "icon": "GuestHouse.svg"
+        },
+        {
+            "label": "Hotel",
+            "value": "hotel",
+            "icon": "Hotel.svg"
+        },
+
+        {
+            "label": "House Boat",
+            "value": "houseBoat",
+            "icon": "HouseBoat.svg"
+        },
+        {
+            "label": "Kezhan",
+            "value": "kezhan",
+            "icon": "Kezhan.svg"
+        },
+        {
+            "label": "Minsu",
+            "value": "minsu",
+            "icon": "Minsu.svg"
+        },
+        {
+            "label": "Riad",
+            "value": "riad",
+            "icon": "Riad.svg"
+        },
+
+        {
+            "label": "Ryokan",
+            "value": "ryokan",
+            "icon": "Ryokan.svg"
+        },
+        {
+            "label": "Shepherd's hut",
+            "value": "shepherdHut",
+            "icon": "Shepherd.svg"
+        },
+        {
+            "label": "Tent",
+            "value": "tent",
+            "icon": "Tent.svg"
+        },
+
+        {
+            "label": "TinyHome",
+            "value": "tinyHome",
+            "icon": "TinyHome.svg"
+        },
+        {
+            "label": "Tower",
+            "value": "tower",
+            "icon": "Tower.svg"
+        },
+        {
+            "label": "Treehouse",
+            "value": "treeHouse",
+            "icon": "TreeHouse.svg"
+        },
+
+        {
+            "label": "Trullo",
+            "value": "trullo",
+            "icon": "Trullo.svg"
+        },
+
+        {
+            "label": "Windmill",
+            "value": "windmill",
+            "icon": "Windmill.svg"
+        },
+        {
+            "label": "Yurt",
+            "value": "yurt",
+            "icon": "Yurt.svg"
+        }
+    ],
+    "typeOfPlaces": [
+        {
+            "label": "An entire place",
+            "value": "entirePlace",
+            "desc": "Guests have the whole place to themselves.",
+            "icon": "House.svg"
+        },
+        {
+            "label": "A room",
+            "value": "room",
+            "desc": "Guests have their own room in a home, plus access to shared spaces.",
+            "icon": "Room.svg"
+        },
+        {
+            "label": "A shared room in a hotel",
+            "value": "sharedRoom",
+            "desc": "Guests sleep in a shared room in a professionally managed hostel with staff onsite 24/7.",
+            "icon": "SharedRoom.svg"
+        }
+    ],
+    "favourites": [
+        {
+            "label": "Wifi",
+            "value": "wifi",
+            "icon": "Wifi.svg"
+        },
+        {
+            "label": "Tv",
+            "value": "tv",
+            "icon": "Tv.svg"
+        },
+        {
+            "label": "Kitchen",
+            "value": "kitchen",
+            "icon": "Kitchen.svg"
+        },
+        {
+            "label": "Washer",
+            "value": "washer",
+            "icon": "Washer.svg"
+        },
+        {
+            "label": "Free parking on premises",
+            "value": "freeParking",
+            "icon": "FreeParking.svg"
+        },
+        {
+            "label": "Paid parking on premises",
+            "value": "paidParking",
+            "icon": "PaidParking.svg"
+        },
+        {
+            "label": "Air conditioning",
+            "value": "airCondition",
+            "icon": "AirCondition.svg"
+        },
+        {
+            "label": "Dedicated workspace",
+            "value": "dedicatedWorkspace",
+            "icon": "Workspace.svg"
+        }
+    ],
+    "amenities": [
+        {
+            "label": "Pool",
+            "value": "Pool",
+            "icon": "Pool.svg"
+        },
+        {
+            "label": "Hot tub",
+            "value": "hotTub",
+            "icon": "HotTub.svg"
+        },
+        {
+            "label": "Patio",
+            "value": "patio",
+            "icon": "Patio.svg"
+        },
+        {
+            "label": "BBQ grill",
+            "value": "bbq",
+            "icon": "BBQ.svg"
+        },
+        {
+            "label": "Outdoor dining area",
+            "value": "outdoorDiningArea",
+            "icon": "OutdoorDine.svg"
+        },
+        {
+            "label": "Fire pit",
+            "value": "firePir",
+            "icon": "FirePit.svg"
+        },
+        {
+            "label": "Pool table",
+            "value": "airCondition",
+            "icon": "AirCondition.svg"
+        },
+        {
+            "label": "Indoor fire place",
+            "value": "indoorFirePlace",
+            "icon": "IndoorFirePlace.svg"
+        },
+        {
+            "label": "Piano",
+            "value": "piano",
+            "icon": "Piano.svg"
+        },
+        {
+            "label": "Exercise equipment",
+            "value": "exerciseEquipment",
+            "icon": "Gym.svg"
+        },
+        {
+            "label": "Lake access",
+            "value": "lakeAccess",
+            "icon": "Lake.svg"
+        },
+        {
+            "label": "Beach access",
+            "value": "beachAccess",
+            "icon": "Beach.svg"
+        },
+        {
+            "label": "Ski-in/Ski-out",
+            "value": "ski",
+            "icon": "Ski.svg"
+        },
+        {
+            "label": "Outdoor shower",
+            "value": "outShower",
+            "icon": "OutShower.svg"
+        }
+    ],
+    "safety": [
+        {
+            "label": "Smoke alarm",
+            "value": "smokeAlarm",
+            "icon": "SmokeAlarm.svg"
+        },
+        {
+            "label": "First aid kit",
+            "value": "firstAidKit",
+            "icon": "FirstAid.svg"
+        },
+        {
+            "label": "Fire extinguisher",
+            "value": "fireExt",
+            "icon": "FireEx.svg"
+        },
+        {
+            "label": "Carbon monoxide alarm",
+            "value": "carbon",
+            "icon": "CarbonAlarm.svg"
+        }
+    ]
+}

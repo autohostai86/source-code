@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "outDir": "../../dist/out-tsc",
+        "module": "commonjs",
+        "types": ["node", "express"]
+    },
+    "exclude": ["**/*.spec.ts", "**/*.test.ts"],
+    "include": ["**/*.ts", "src/services/TestThread.js"],
+    "files": ["../../types/pdfKit/index.d.ts"]
+}

@@ -1,0 +1,140 @@
+/** @format */
+
+// common class
+// .text-dark {
+//     color: $dark-color !important;
+// }
+
+// // overriding styles from _gogo.style.scss
+
+// body {
+//     color: $primary-color;
+// }
+// input,
+// select,
+// textarea {
+//     color: $dark-color !important;
+// }
+
+// // dropdown
+// .dropdown-menu {
+//     font-size: 0.8rem;
+//     border-radius: $border-radius;
+//     background: $foreground-color;
+//     border-color: rgba($primary-color, 0.15);
+// }
+
+// .dropdown-item {
+//     padding: 0.75rem 1.5rem;
+//     color: $primary-color;
+//     background: $foreground-color;
+// }
+
+// .dropdown-item:hover,
+// .dropdown-item:focus {
+//     background-color: $theme-color-1;
+//     color: $primary-color;
+// }
+
+// // material ui root class override
+// .MuiInputBase-input {
+//     color: $primary-color !important;
+// }
+// .MuiSvgIcon-root {
+//     color: $primary-color !important;
+// }
+
+// .MuiTypography-caption {
+//     color: $primary-color !important;
+// }
+
+// .MuiPaper-root {
+//     background-color: $foreground-color !important;
+//     color: $primary-color !important;
+// }
+
+// // batch notification
+// .BatchProcessStatus__progress {
+//     background-color: $foreground-color;
+//     padding: 1rem;
+// }
+
+// // cv process screen
+// /** @format */
+
+// .cvProcessingScreenCard__div {
+//     background-color: $foreground-color;
+//     padding: 1rem;
+//     border-radius: 0.5rem;
+//     margin-top: 1rem;
+//     margin-bottom: 1rem;
+//     cursor: pointer;
+//     transition: 0.3s;
+//     min-height: 20vh;
+//     width: 100%;
+// }
+
+// .cvProcessingScreenCard__div:hover {
+//     box-shadow: 0px 0px 0px 5px $theme-color-1;
+//     -webkit-box-shadow: 0px 0px 0px 5px $theme-color-1;
+//     -moz-box-shadow: 0px 0px 0px 5px $theme-color-1;
+// }
+
+// .cvProcessingScreenCard__div__active {
+//     box-shadow: 0px 0px 0px 5px $theme-color-1;
+//     -webkit-box-shadow: 0px 0px 0px 5px $theme-color-1;
+//     -moz-box-shadow: 0px 0px 0px 5px $theme-color-1;
+// }
+
+// .cvProcessingScreenCard__div__hide {
+//     display: none;
+//     pointer-events: none;
+// }
+
+// // .configScreen {
+// .custom-file-label {
+//     background: $foreground-color;
+//     border-color: #ffff;
+//     color: #ffff;
+// }
+// // }
+// /** @format */
+
+// .BatchProcessStatus__div {
+//     background-color: #151a30;
+//     padding: 1rem;
+// }
+
+// .MuiTableBody-root {
+//     color: #ffffff;
+// }
+
+// .MuiTableCell-body {
+//     color: #ffffff;
+// }
+
+// overrdide sitebar and main menu
+.navbar {
+    padding: 0 !important;
+    height: 70px !important;
+}
+.sidebar {
+    padding: 70px !important;
+}
+
+.sidebar .main-menu {
+    height: 100% !important;
+}
+
+// reduced padding of main content
+
+.sub-hidden main,
+.menu-sub-hidden main,
+.menu-hidden main {
+    margin-left: 110px !important;
+}
+main {
+    border: 1px solid red;
+    margin-top: 85px !important;
+    margin-right: 15px !important;
+}

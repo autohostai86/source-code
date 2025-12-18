@@ -1,0 +1,25 @@
+# Get all report listing process data
+GET http://localhost:5000/api/reportsProcess/getAllReportsData HTTP/1.1
+
+
+
+# Get report listing process data from user id
+GET http://localhost:5000/api/reportsProcess/getReportsData/61d83f14fd2967019552902f HTTP/1.1
+
+
+
+
+# download report listing process data
+POST http://localhost:5000/api/reportsProcess/downloadReports/61d83f14fd2967019552902f HTTP/1.1
+
+
+
+
+# delete report listing process data
+POST http://localhost:5000/api/reportsProcess/deleteReports/61d83f14fd2967019552902f HTTP/1.1
+
+
+
+
+
+

@@ -1,0 +1,166 @@
+.chat-online {
+    color: #34ce57
+}
+
+.chat-offline {
+    color: #e4606d
+}
+
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    max-height: 55rem;
+    overflow-y: scroll;
+    overflow: scroll;
+}
+
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.chat-message-left {
+    margin-right: auto;
+}
+
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+.flex-grow-0 {
+    flex-grow: 0!important;
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+.custom-btn{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.text-overflow{
+    white-space: nowrap;
+    overflow: hidden;    
+    text-overflow: ellipsis;
+    max-width: 200px;
+    color: gray;
+}
+
+.chat-list{
+    max-height: 60rem;
+    overflow-y: scroll;
+}
+
+.load-btn{
+    background-color: #051E5C;
+    color: #ced4da;
+    position: relative !important;
+    left: 35%;
+}
+
+.form-control{
+    color: #000 !important;
+}
+
+.screollbar::-webkit-scrollbar{
+    width: 0;
+}
+
+.header-body{
+    overflow: hidden;
+}
+
+.message-left{
+    background-color: #ced4da !important;
+    /* color:black; */
+    border-radius: 10px 10px 10px 0px;
+}
+
+.bg-light{
+    border-radius: 10px 10px 0px 10px;
+}
+
+.left-outline {
+  border-left: 2px solid #051E5C;
+}
+
+.conversation-card{
+    border-width: 2px;
+   width: 100%;
+}
+
+.conversation-scroll {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+/* Define custom scrollbar styles */
+.conversation-scroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: transparent; /* Optional: background color for the scrollbar track */
+}
+
+.conversation-scroll::-webkit-scrollbar-thumb {
+  background-color: #cccccc; /* Color for the scrollbar thumb */
+  border-radius: 10px; /* Make the scrollbar thumb round */
+}
+
+.conversation-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #999999; /* Optional: change color on hover */
+}
+
+.search-bar{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.border-right{
+    border-width:0;
+    border-right-width: 1px !important;
+}
+
+.back-arrow{
+    color: #051E5C !important;
+}
+
+.no-Data{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.4;
+}
+
+.no-conversations{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar-width{
+    margin-left: 18px;
+    width: 20%;
+}
+
+@media (max-width: 576px) {
+    .search-bar-width{
+        width: 75%;
+    }
+}
+@media (max-width: 1280px) {
+    .search-bar-width{
+        width: 50%;
+    }
+}

@@ -1,0 +1,71 @@
+{
+  "root": "apps/chatapp",
+  "sourceRoot": "apps/chatapp/src",
+  "projectType": "application",
+  "targets": {
+      "build": {
+          "executor": "@nrwl/web:webpack",
+          "outputs": ["{options.outputPath}"],
+          "defaultConfiguration": "production",
+          "options": {
+              "compiler": "babel",
+              "outputPath": "dist/apps/chatapp",
+              "index": "apps/chatapp/src/index.html",
+              "baseHref": "/",
+              "main": "apps/chatapp/src/main.ts",
+              "polyfills": "apps/chatapp/src/polyfills.ts",
+              "tsConfig": "apps/chatapp/tsconfig.app.json",
+              "assets": ["apps/chatapp/src/favicon.ico", "apps/chatapp/src/assets"],
+              "styles": [],
+              "scripts": [],
+              "webpackConfig": "apps/chatapp/webpack.config.js"
+          },
+          "configurations": {
+              "production": {
+                  "fileReplacements": [
+                      {
+                          "replace": "apps/chatapp/src/environments/environment.ts",
+                          "with": "apps/chatapp/src/environments/environment.prod.ts"
+                      }
+                  ],
+                  "optimization": true,
+                  "outputHashing": "all",
+                  "sourceMap": false,
+                  "namedChunks": true,
+                  "extractLicenses": false,
+                  "vendorChunk": false
+              }
+          }
+      },
+      "serve": {
+          "executor": "@nrwl/web:dev-server",
+          "options": {
+              "buildTarget": "chatapp:build",
+              "hmr": true,
+              "proxyConfig": "apps/chatapp/proxy.conf.json"
+          },
+          "configurations": {
+              "production": {
+                  "buildTarget": "chatapp:build:production",
+                  "hmr": false
+              }
+          }
+      },
+      "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+              "lintFilePatterns": ["apps/chatapp/**/*.{ts,tsx,js,jsx}"]
+          }
+      },
+      "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/chatapp"],
+          "options": {
+              "jestConfig": "apps/chatapp/jest.config.js",
+              "passWithNoTests": true
+          }
+      }
+  },
+  "tags": []
+}

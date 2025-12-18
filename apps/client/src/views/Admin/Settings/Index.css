@@ -1,0 +1,15 @@
+.custom-button-settings{
+    background-color: #051E5C;
+    color: #fff;
+    box-shadow: 0 .5rem 1rem #051e5c!important;
+    border: none;
+    width:10rem ;
+}
+
+.custom-button-settings:hover{
+    background-color: #072470;
+    color: #fff;
+}
+#accessToken:focus{
+    border: 2px solid blue;
+} 

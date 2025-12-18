@@ -1,0 +1,33 @@
+{
+    "profileDoc" : "",
+    "groupIds" : [],
+    "roles" : [ 
+        {
+            "UserDashboard" : [ 
+                "no_sub_menu"
+            ]
+        }, 
+        {
+            "UserDocsUploadViewer" : [ 
+                "no_sub_menu"
+            ]
+        }, 
+        {
+            "UserReportsUploadViewer" : [ 
+                "no_sub_menu"
+            ]
+        }, 
+        {
+            "UserProfile" : [ 
+                "no_sub_menu"
+            ]
+        }
+    ],
+    "userProcessType" : "vendor",
+    "isDisabled" : false,
+    "userName" : "User",
+    "email" : "user@vinnovate.com",
+    "localization" : "english",
+    "password" : "$2a$10$2ziIhHAdjX7qpddO9vWzLOELcha/Mtx3tTojlTH4y4Bn15mb0Nc4K",
+    "phoneNo" : "000000000"
+}

@@ -1,0 +1,25 @@
+# Get all split combine process data
+GET http://localhost:5000/api/docsProcess/getAllDocsData HTTP/1.1
+
+
+
+# Get split combine process data from user id
+GET http://localhost:5000/api/docsProcess/getDocsData/61d83f14fd2967019552902f HTTP/1.1
+
+
+
+
+# download split combine process data
+POST http://localhost:5000/api/docsProcess/downloadDocs/61d83f14fd2967019552902f HTTP/1.1
+
+
+
+
+# delete split combine process data
+POST http://localhost:5000/api/docsProcess/deleteDocs/61d83f14fd2967019552902f HTTP/1.1
+
+
+
+
+
+

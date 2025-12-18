@@ -1,0 +1,22 @@
+.container {
+    text-align: justify;
+    color: #10275B;
+
+}
+
+p {
+    color: #10275B;
+    font-weight: 400;
+}
+
+h3 {
+    text-align: justify;
+}
+@media (max-width: 767.98px) {
+    .section {
+        padding: 20px;
+    }
+    .contact p, .contact ul {
+        font-size: 14px;
+    }
+}

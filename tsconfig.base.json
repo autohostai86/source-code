@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@bootstrap-min": ["apps/client/src/assets/css/vendor/bootstrap.min.css"],
+      "@bootstrap-rtl-min": [
+        "apps/client/src/assets/css/vendor/bootstrap.rtl.only.min.css"
+      ],
+      "@nx-env/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@sass-light-blue-theme": ["libs/sass/themes/gogo.light.blue.scss"],
+      "@sass-light-red-theme": ["libs/sass/themes/gogo.light.red.scss"]
+    }
+  },
+  "files": ["types/pdfKit/index.d.ts"],
+  "include": ["types"],
+  "exclude": ["node_modules", "tmp"]
+}

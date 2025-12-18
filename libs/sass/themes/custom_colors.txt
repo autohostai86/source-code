@@ -1,0 +1,21 @@
+The purpose is to make it little smaller, change some color  the deisgn must feel closely to those mockup https://drive.google.com/drive/folders/1ciABLDJEDVG4jI3RyJCWEb4oNjtJB2h-?usp=sharing)
+
+
+font-family: noto sans; (https://fonts.google.com/specimen/Noto+Sans)
+sidebar hover and active color : #f27218
+sidebar text and icons color : #ffffff
+hamburger menu icon sv fill : #ffffff
+side bar icons size : 20px
+sidebar-sub-menu width: 210px
+sidebar-main-menu width: 100px
+left-menu height :  90px
+left-menu font-size: 12px
+
+
+header height : 75px
+header padding: padding: 0.5rem 0
+
+header background color : #151A30
+sidebar background color : #18203A
+sidebar text and icons color : #ffffff
+sidebar hover and active color : #f27218

@@ -1,0 +1,50 @@
+# Upload files to process - split combine screen
+POST http://localhost:5000/api/upload/uploadFiles HTTP/1.1
+
+form data
+
+userId: 61d83f14fd2967019552902f
+orgId: 61d83beffd29670195528fe6
+adminId: 61d83dbffd29670195528ff6
+superAdminId: 61d83beefd29670195528fe4
+processName: demo
+processType: {"isCombine":false,"isSplit":true,"isHyperLinking":false,"isOCR":true,"isROR":false,"isBookmark":false,"isUnwanted":false}
+folderName: 1644246958934
+uploadType: split_combine_files
+files: (binary)
+files: (binary)
+files: (binary)
+
+on success - 
+{"success":"files-uploaded-successfully"}
+
+
+
+# Upload files to process - report listing screen
+POST http://localhost:5000/api/upload/uploadFiles HTTP/1.1
+
+form data
+
+userId: 61d83f14fd2967019552902f
+orgId: 61d83beffd29670195528fe6
+adminId: 61d83dbffd29670195528ff6
+superAdminId: 61d83beefd29670195528fe4
+clientName: demo
+processName: demo
+pageCount: 1
+folderName: 1644247137674
+uploadType: report_listing_files
+files: (binary)
+
+on success - 
+{"success":"files-uploaded-successfully"}
+
+###
+POST http://localhost:5000/api/upload/emailForFile HTTP/1.1
+content-type: application/json
+
+{
+  "clientId": "630fa292a9e4e801199e84d5",
+  "userProcessType": "vendor"
+  
+}

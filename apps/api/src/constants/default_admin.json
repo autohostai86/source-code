@@ -1,0 +1,78 @@
+{
+    "roles" : [ 
+        {
+            "AdminDashboard" : [ 
+                "no_sub_menu", 
+                "no_sub_menu"
+            ]
+        }, 
+        {
+            "AdminManageUser" : [ 
+                "no_sub_menu"
+            ]
+        }, 
+        {
+            "AdminAudit" : [ 
+                "no_sub_menu"
+            ]
+        }, 
+        {
+            "AdminDocsReportsViewer" : [ 
+                "no_sub_menu"
+            ]
+        }, 
+        {
+            "AdminClientProcessReport" : [ 
+                "no_sub_menu"
+            ]
+        }, 
+        {
+            "AdminClientBillingReport" : [ 
+                "no_sub_menu"
+            ]
+        }, 
+        {
+            "AdminClientData" : [ 
+                "no_sub_menu"
+            ]
+        }, 
+        {
+            "AdminReportData" : [ 
+                "no_sub_menu"
+            ]
+        }
+    ],
+    "rolesForUser" : [ 
+        {
+            "UserDashboard" : [ 
+                "no_sub_menu", 
+                "no_sub_menu"
+            ]
+        }, 
+        {
+            "UserDocsUploadViewer" : [ 
+                "no_sub_menu"
+            ]
+        }, 
+        {
+            "UserReportsUploadViewer" : [ 
+                "no_sub_menu"
+            ]
+        }, 
+        {
+            "UserPdfsUploadViewer" : [ 
+                "no_sub_menu"
+            ]
+        }, 
+        {
+            "UserProfile" : [ 
+                "no_sub_menu"
+            ]
+        }
+    ],
+    "profileDoc" : "",
+    "userName" : "admin",
+    "email" : "admin@vinnovate.com",
+    "password" : "$2a$10$2ziIhHAdjX7qpddO9vWzLOELcha/Mtx3tTojlTH4y4Bn15mb0Nc4K",
+    "localization" : "english"
+}

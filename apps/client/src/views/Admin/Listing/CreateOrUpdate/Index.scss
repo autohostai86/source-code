@@ -1,0 +1,131 @@
+.card-style {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.card-style:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.label-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid transparent; // Default border color
+    transition: border-color 0.3s;
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.selected {
+    border-color: #051E5C;
+}
+
+.label-style h3 {
+    margin-left: -7% !important;
+}
+
+.icon-style {
+    width: 25% !important;
+    height: 25% !important;
+    margin-bottom: 8px;
+}
+
+.custom-footer {
+    position: sticky;
+    background-color: #fff;
+    bottom: 0;
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    transition: box-shadow 0.3s ease;
+}
+
+.card-container.selected {
+    border-color: #051E5C;
+}
+
+.card-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+}
+
+
+.label-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+}
+
+.label-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+@media (min-width: 992px) {
+    .custom-height{
+        min-height: 80vh;
+    }
+    .guest-controls{
+        width: 50% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .custom-height{
+        min-height: 80vh;
+    }
+    .guest-controls{
+        width: 50% !important;
+    }
+}
+
+.qtyBtn{
+    box-shadow: none;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 50%;
+}
+
+.qtyBtn:hover{
+    box-shadow: none;
+    transform: none;
+    border: 1px solid gray;
+}
+
+.guest-controls{
+    width: 100%;
+}
+
+.guest-label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+    .card-container{
+        width: 100%;
+    }
+}

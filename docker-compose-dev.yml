@@ -1,0 +1,43 @@
+version: "3.8"
+
+services:
+
+  node-chat-service:
+    build: 
+       context: .
+       dockerfile: Dockerfile-dev
+
+    environment:
+            CHOKIDAR_USEPOLLING: 'true'
+
+    container_name: node-chat
+    tty: true
+    #restart: always
+    ports:
+      - "0.0.0.0:3000:3000"
+      - "0.0.0.0:3001:3001"
+      - "0.0.0.0:4000:4000"
+      - "0.0.0.0:5000:5000"
+      - "0.0.0.0:8000:80"
+    volumes:
+      - .:/usr/src/app
+      
+
+
+  mongo-chat-service:
+    # image: mongo:4.2-bionic
+    image: mongo:5.0-focal
+    # restart: always
+    container_name: mongo-chat
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: 1004
+      MONGO_INITDB_DATABASE: chat 
+    volumes:
+        - mongo-chat-storage:/data/db
+
+    ports:
+      - 27020:27017
+
+volumes:
+    mongo-chat-storage:
